@@ -1,0 +1,96 @@
+body {
+ /*Typography Declaration*/
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Hevletica Neue", sans-serif; 
+  }
+
+.content-footer,
+.masthead-intro,
+.masthead-heading{
+  text-align: center;
+}
+
+.masthead{
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/lvXbgcg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+}
+
+
+.masthead-intro{
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading{
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p{
+  /*Typography Delcaration*/
+  font-weight: 300;
+  letter-spacing: 0.03em;
+}
+
+.introduction-section{
+  border-radius: 1px 50px 1px;
+  border: 3px solid #BEEB9F;
+  padding: 2em;
+  box-shadow: 3px 3px 20px #ccc;
+}
+
+.location-section{
+  border-radius: 1px 50px 1px;
+  background:#FFFF9D;
+  padding: 2em;
+  box-shadow: 0px 8px 6px -6px #ccc;
+}
+
+.questions-section{
+  border-radius: 1px 50px 1px;  
+  border: 3px solid #BEEB9F;
+  padding: 2em;
+  box-shadow: 3px 3px 20px #CCC;
+}
+
+.questions-section > h2{ 
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /*Layout*/
+  margin: 2em 0 1em 0;
+}
+
+.introduction-section,
+.location-section,
+.questions-section{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+
+  .social > li {
+    display: inline-block;    
+  }
+
+.content-footer{
+  background-color: #79BD8F;
+  padding: 2em 0 3em 0;
+}
+  
+  .content-footer > p {
+    background-color: #79BD8F;
+    color: white;
+  } 

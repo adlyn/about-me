@@ -24,6 +24,7 @@ body {
   margin-bottom: 0.1em;
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 2em;
+  font-color: #79BD8F;
 }
 
 .masthead-heading{
@@ -31,6 +32,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 6em;
+  font-color: #79BD8F;
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
